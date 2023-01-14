@@ -63,6 +63,7 @@ ul {
     list-style: none;
     margin-bottom: 50px;
     margin-top: -10px;
+    transition: all 0.5s;
 }
 
 a:link,
@@ -97,6 +98,7 @@ a:hover {
 #icon{
     border-radius: 100%;
     width: 80%;
+    transition: all 0.5s;
 }
 h2 {
     font-size: 1.5em;
@@ -107,13 +109,73 @@ h2 {
     transition: all 0.5s;
 }
 
-@media (min-width: 1px) and (max-width: 1280px) {
+@media (min-width: 1px) and (max-width: 1640px) {
+
+    #blue {
+        width: 60%;
+        transition: all 0.5s;
+    }
+    a:link,
+    a:visited {
+        padding: 10px 125px 8px 125px;
+        margin: 20px 15px;
+        transition: all 0.5s;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 1225px) {
 
     #blue {
         width: 65%;
         transition: all 0.5s;
     }
+    a:link,
+    a:visited {
+        padding: 10px 75px 8px 75px;
+        margin: 10px;
+        transition: all 0.5s;
+    }
+}
+@media (min-width: 1px) and (max-width: 960px) {
 
+    #blue {
+        width: 90%;
+        transition: all 0.5s;
+    }
+    #content {
+        flex-direction: column-reverse;
+        width: 90%;
+        transition: all 0.5s;
+    }
+    h1 {
+    
+    font-size: 2em;
+    padding-top: 5px;
+        padding-bottom: 20px;
+    transition: all 0.5s;
+}
+    #icon{
+    width: 30%;
 }
 
+    ul {
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+    a:link,
+    a:visited {
+    font-size: 1.1em;
+        padding: 5px 75px 4px 75px;
+    border-radius: 10px;
+                transform: translateX(-8%);
+    transition: all 0.5s;
+}
+        h2 {
+    font-size: 1.25em;
+    text-align: center;
+            margin-bottom: 25px;
+    transition: all 0.5s;
+}
+    
+}
 }
