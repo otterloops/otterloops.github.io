@@ -17,17 +17,14 @@
 }
 
 body {
-    background: url("/img/pixel.png") fixed;
+    background: linear-gradient(0deg, rgba(230, 230, 230, 0), rgba(230, 230, 230, 0)), url("/img/pixel-30.png") fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     margin: 0;
 }
-#overlay{
-    height: 100vh;
-    background-color: rgba(230, 230, 230, 0.3);
-}
+
 #blue {
     background-image: linear-gradient(90deg, #2948FF, #396AFC);
     width: 50%;
