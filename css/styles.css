@@ -7,12 +7,12 @@
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateX(-50%) translateY(15%);
+        transform: translateX(-50%) translateY(-60%);
     }
 
     to {
         opacity: 1;
-        transform: translateX(-50%) translateY(25%);
+        transform: translateX(-50%) translateY(-50%);
     }
 }
 
@@ -29,7 +29,7 @@ body {
     background-image: linear-gradient(90deg, #2948FF, #396AFC);
     width: 50%;
     position: absolute;
-/*    top: 50%;*/
+    top: 50%;
     left: 50%;
     margin: 0;
     border-radius: 25px;
@@ -137,9 +137,22 @@ h2 {
     }
 }
 @media (min-width: 1px) and (max-width: 960px) {
+@keyframes fadeInMob {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(5%);
+    }
 
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(15%);
+    }
+}
     #blue {
         width: 90%;
+        top: 0%;
+        animation: fadeInMob ease 2s;
+    animation-fill-mode: forwards;
         transition: all 0.5s;
     }
     #content {
