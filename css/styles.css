@@ -23,7 +23,6 @@ body {
     background-position: center;
     height: 100vh;
     margin: 0;
-    overflow: auto;
 }
 
 #blue {
@@ -185,26 +184,25 @@ h2 {
 @keyframes fadeInMob {
     from {
         opacity: 0;
-        transform: translateX(-50%) translateY(5%);
+        transform: translateX(-50%) translateY(0%);
     }
 
     to {
         opacity: 1;
-        transform: translateX(-50%) translateY(15%);
+        transform: translateX(-50%) translateY(10%);
     }
 }
         #blue {
         top: 0%;
+            margin-bottom: 50px;
         animation: fadeInMob ease 2s;
     animation-fill-mode: forwards;
         transition: all 0.5s;
     }
-    
 }
 
-/*
-@media screen and (orientation:landscape){
+@media screen and (orientation:portrait){
     body{
         overflow: hidden;
     }
-}*/
+}
