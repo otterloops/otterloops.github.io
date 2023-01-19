@@ -23,6 +23,7 @@ body {
     background-position: center;
     height: 100vh;
     margin: 0;
+    overflow: auto;
 }
 
 #blue {
@@ -137,21 +138,9 @@ h2 {
     }
 }
 @media (min-width: 1px) and (max-width: 960px) {
-@keyframes fadeInMob {
-    from {
-        opacity: 0;
-        transform: translateX(-50%) translateY(5%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(-50%) translateY(15%);
-    }
-}
     #blue {
         width: 90%;
-        top: 0%;
-        animation: fadeInMob ease 2s;
+        animation: fadeIn ease 2s;
     animation-fill-mode: forwards;
         transition: all 0.5s;
     }
@@ -191,4 +180,31 @@ h2 {
 }
     
 }
+@media screen and (orientation:landscape) and (min-width: 1px) and (max-width: 960px) {
+
+@keyframes fadeInMob {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(5%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(15%);
+    }
 }
+        #blue {
+        top: 0%;
+        animation: fadeInMob ease 2s;
+    animation-fill-mode: forwards;
+        transition: all 0.5s;
+    }
+    
+}
+
+/*
+@media screen and (orientation:landscape){
+    body{
+        overflow: hidden;
+    }
+}*/
