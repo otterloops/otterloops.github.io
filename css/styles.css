@@ -200,9 +200,3 @@ h2 {
         transition: all 0.5s;
     }
 }
-
-@media screen and (orientation:portrait){
-    body{
-        overflow: hidden;
-    }
-}
