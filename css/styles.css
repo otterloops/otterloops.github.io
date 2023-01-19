@@ -15,7 +15,11 @@
         transform: translateX(-50%) translateY(-50%);
     }
 }
-
+html{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
 body {
     background: linear-gradient(0deg, rgba(230, 230, 230, 0), rgba(230, 230, 230, 0)), url("/img/pixel-30.png") fixed;
     background-repeat: no-repeat;
