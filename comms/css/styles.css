@@ -5,12 +5,17 @@ h1 {
 
 #content {
     flex-direction: column;
-    }
+}
 
-    a:link,
-    a:visited {
-        transform: translateX(-8%);
-    }
+a:link,
+a:visited {
+    transform: translateX(-8%);
+}
+
+ul {
+    margin-top: 0px;
+    transition: all 0.5s;
+}
 
 h2 {
     width: 80%;
@@ -38,12 +43,6 @@ h2 {
         font-size: 2em;
         padding-top: 5px;
         padding-bottom: 0px;
-        transition: all 0.5s;
-    }
-
-
-    ul {
-        margin-top: 0px;
         transition: all 0.5s;
     }
 
