@@ -1,0 +1,57 @@
+h1 {
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+#content {
+    flex-direction: column;
+    }
+
+    a:link,
+    a:visited {
+        transform: translateX(-8%);
+    }
+
+h2 {
+    width: 80%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+@media (min-width: 1px) and (max-width: 1225px) {
+
+    a:link,
+    a:visited {
+        margin-top: 25px;
+        transition: all 0.5s;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 960px) {
+    #content {
+        width: 90%;
+        transition: all 0.5s;
+    }
+
+    h1 {
+
+        font-size: 2em;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        transition: all 0.5s;
+    }
+
+
+    ul {
+        margin-top: 0px;
+        transition: all 0.5s;
+    }
+
+    h2 {
+        width: 95%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        transition: all 0.5s;
+    }
+
+}
