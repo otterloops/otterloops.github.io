@@ -1,0 +1,105 @@
+@keyframes fadeInMob {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-1%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0%);
+    }
+}
+
+#blue {
+    top: 0%;
+    animation: fadeInMob ease 2s;
+    animation-fill-mode: forwards;
+    transition: all 0.5s;
+}
+
+h1 {
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+#content {
+    flex-direction: column;
+}
+
+a:link,
+a:visited {
+    transform: translateX(-7%);
+}
+
+ul {
+    margin: 0px;
+    transition: all 0.5s;
+}
+
+h2 {
+    width: 80%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.gallery {
+    width: 70%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.sprite {
+    width: 30%;
+}
+
+#bottom {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1px) and (max-width: 1225px) {
+    h1 {
+        margin-bottom: 5px;
+    }
+
+    a:link,
+    a:visited {
+        margin-top: 25px;
+        transition: all 0.5s;
+    }
+
+    .gallery {
+        width: 90%;
+    }
+
+    #bottom {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 1px) and (max-width: 960px) {
+    #content {
+        width: 90%;
+        transition: all 0.5s;
+    }
+
+    h1 {
+
+        font-size: 2em;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        transition: all 0.5s;
+    }
+
+    h2 {
+        width: 95%;
+        margin: 10px 0px;
+        transition: all 0.5s;
+    }
+
+}
