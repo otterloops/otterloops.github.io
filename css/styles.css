@@ -157,7 +157,6 @@ h2 {
     }
 
     h1 {
-
         font-size: 2em;
         padding-top: 5px;
         padding-bottom: 20px;
@@ -178,7 +177,7 @@ h2 {
         font-size: 1.1em;
         padding: 5px 75px 4px 75px;
         border-radius: 10px;
-        transform: translateX(-7%);
+        transform: translateX(-7.5%);
         transition: all 0.5s;
     }
 
