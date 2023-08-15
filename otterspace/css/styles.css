@@ -46,12 +46,12 @@ body {
     display: flex;
       justify-content: center;
     width: 100%;
-    animation: fadeOtt ease 5s;
+    animation: fadeOtt ease 8s;
     animation-fill-mode: forwards;
 }
 #content {
     display: block;
-    width: 90%;
+    width: 96%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,16 +72,19 @@ h1,h2,h4{
 
 h2,h1{
         font-family: 'otterSpace', cursive;
+    
 
 }
 h2 {
     font-size: 3em;
+    letter-spacing: -3px;
     transition: all 0.5s;
 }
 
 h1 {
     font-size: 9em;
     color: white;
+    letter-spacing: -10px;
     margin: 30px 0px 90px 0px;
     transition: all 0.5s;
 }
@@ -144,6 +147,7 @@ h4{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2.5em;
     font-weight: 300;
+    letter-spacing: 2px;
     opacity: 0;
     animation: letters ease 0.5s;
     animation-fill-mode: forwards;
@@ -182,7 +186,7 @@ a:visited {
     font-size: 1.75em;
     letter-spacing: -2px;
     color: white;
-    border: 1px solid white;
+/*    border: 1px solid white;*/
     padding: 10px 100px 12px 100px;
     margin: 20px 25px;
     white-space: nowrap;
@@ -200,17 +204,26 @@ a:hover {
 
 
 
-/*
 @media (min-width: 1px) and (max-width: 1640px) {
+h2 {
+    font-size: 2.5em;
+    transition: all 0.5s;
+}
+    
+    h1 {
+    font-size: 7em;
+    transition: all 0.5s;
+}
 
-    #blue {
-        width: 60%;
-        transition: all 0.5s;
-    }
-
+    h4{
+    
+    font-size: 2em;
+    transition: all 0.5s;
+}
+    
     a:link,
     a:visited {
-        padding: 10px 125px 8px 125px;
+    padding: 10px 50px 12px 50px;
         margin: 20px 15px;
         transition: all 0.5s;
     }
@@ -218,87 +231,74 @@ a:hover {
 
 @media (min-width: 1px) and (max-width: 1225px) {
 
-    #blue {
-        width: 65%;
-        transition: all 0.5s;
-    }
-
-    a:link,
-    a:visited {
-        padding: 10px 75px 8px 75px;
-        margin: 10px;
-        transition: all 0.5s;
-    }
-}
-
-@media (min-width: 1px) and (max-width: 960px) {
-    #blue {
-        width: 90%;
-        animation: fadeIn ease 2s;
-        animation-fill-mode: forwards;
-        transition: all 0.5s;
-    }
-
-    #content {
-        flex-direction: column-reverse;
-        width: 90%;
-        transition: all 0.5s;
-    }
-
-    h1 {
-        font-size: 2em;
-        padding-top: 5px;
-        padding-bottom: 20px;
-        transition: all 0.5s;
-    }
-
-    #icon {
-        width: 30%;
-    }
-
-    ul {
-        margin-bottom: 30px;
-        transition: all 0.5s;
-    }
-
-    a:link,
-    a:visited {
-        font-size: 1.1em;
-        padding: 5px 75px 4px 75px;
-        border-radius: 10px;
-        transform: translateX(-7.5%);
-        transition: all 0.5s;
-    }
-
     h2 {
-        font-size: 1.25em;
-        text-align: center;
-        margin-bottom: 25px;
+margin-bottom: -20px;
         transition: all 0.5s;
-    }
+}
+    
+h1 {
+    
+    margin: 40px 0px;
+    transition: all 0.5s;
+}
+
+        h4{
+    
+    font-size: 2em;
+            width: 50%;
+            margin: 0 auto;
+    transition: all 0.5s;
+}
+    
+    li{
+        margin: 40px 0px;
+    display: block;
 
 }
+    
+}
+
+@media (min-width: 1px) and (max-width: 600px) {
+    h2 {
+    font-size: 2em;
+        transition: all 0.5s;
+}
+    
+h1 {
+    
+    font-size: 5em;
+    transition: all 0.5s;
+}
+
+        h4{
+    
+    font-size: 1.75em;
+            width: 80%;
+    transition: all 0.5s;
+}
+    
+    li{
+        margin: 60px 0px;
+    display: block;
+
+}
+    
+    a:link,
+    a:visited {
+            font-size: 1.5em;
+
+    padding: 16px 30px 20px 30px;
+        transition: all 0.5s;
+    }
+}
+
 
 @media screen and (orientation:landscape) and (min-width: 1px) and (max-width: 960px) {
-
-    @keyframes fadeInMob {
-        from {
-            opacity: 0;
-            transform: translateX(-50%) translateY(0%);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(-50%) translateY(0%);
-        }
-    }
-
-    #blue {
-        top: 0%;
-        border-radius: 0px;
-        animation: fadeInMob ease 2s;
-        animation-fill-mode: forwards;
-        transition: all 0.5s;
-    }
+body {
+    
+    overflow: visible;
 }
-*/
+.otter{
+    display: none;
+}
+}
