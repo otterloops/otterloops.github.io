@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: otterSpace;
-  src: url(/otterspace/font/OtterSpace.woff2);
+  src: url(/otterspace/fonts/OtterSpace.woff2);
 }
 
 ::selection {
@@ -21,8 +21,6 @@
     }
 }
 
-
-
 @keyframes letters {
     from {
         opacity: 0;
@@ -36,6 +34,7 @@
 html, body, #lock{
         overflow: hidden;
 }
+
 body {
     background: linear-gradient(0deg, rgba(230, 230, 230, 0), rgba(230, 230, 230, 0)), url(/otterspace/img/space.jpg) fixed;
     background-repeat: no-repeat;
@@ -44,6 +43,7 @@ body {
     height: 100vh;
     margin: 0;
     }
+
 .otter{
     display: flex;
       justify-content: center;
@@ -51,6 +51,7 @@ body {
     animation: fadeOtt ease 8s;
     animation-fill-mode: forwards;
 }
+
 #content {
     display: block;
     width: 96%;
@@ -59,24 +60,19 @@ body {
     left: 50%;
     margin: 0;
         transform: translateX(-50%) translateY(-50%);
-
     transition: all 0.5s;
 }
 
-h1,h2,h4{
+h2,h1,h4{
         color: white;
         text-align: center;
         margin: 0px;
-
 }
-
-
 
 h2,h1{
         font-family: 'otterSpace', cursive;
-    
-
 }
+
 h2 {
     font-size: 3em;
     letter-spacing: -3px;
@@ -90,59 +86,52 @@ h1 {
     margin: 30px 0px 90px 0px;
     transition: all 0.5s;
 }
+
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
     animation: letters ease 0.5s;
     animation-fill-mode: forwards;
     opacity: 0;
     transition: all 0.5s;
 }
+
 #one{
     animation-delay: 4s;
-
 }
+
 #two{
     animation-delay: 1s;
-
 }
+
 #three{
-
     animation-delay: 5s;
-
 }
+
 #four{
-
     animation-delay: 2s;
-
 }
+
 #five{
-
     animation-delay: 3s;
-
 }
+
 #six{
-
     animation-delay: 1.5s;
-
 }
+
 #seven{
-
     animation-delay: 3.5s;
-
 }
+
 #eight{
-
     animation-delay: 0.5s;
-
 }
+
 #nine{
-
     animation-delay: 4.5s;
-
 }
+
 #ten{
-
     animation-delay: 2.5s;
-
 }
 
 h4{
@@ -154,7 +143,6 @@ h4{
     animation: letters ease 0.5s;
     animation-fill-mode: forwards;
     animation-delay: 5.5s;
-    
     transition: all 0.5s;
 }
 
@@ -171,14 +159,12 @@ text-align: center;
         animation: letters ease 0.5s;
     animation-fill-mode: forwards;
     animation-delay: 7.5s;
-    
     transition: all 0.5s;
 }
 
 li{
     width: auto;
     display: inline;
-
 }
 
 a:link,
@@ -188,7 +174,6 @@ a:visited {
     font-size: 1.75em;
     letter-spacing: -2px;
     color: white;
-/*    border: 1px solid white;*/
     padding: 10px 100px 12px 100px;
     margin: 20px 25px;
     white-space: nowrap;
@@ -196,15 +181,12 @@ a:visited {
 background:rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
-    
 }
 
 a:hover {
     box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
 }
-
-
 
 @media (min-width: 1px) and (max-width: 1640px) {
 h2 {
@@ -245,7 +227,6 @@ h1 {
 }
 
         h4{
-    
     font-size: 2em;
             width: 50%;
             margin: 0 auto;
@@ -255,9 +236,7 @@ h1 {
     li{
         margin: 40px 0px;
     display: block;
-
 }
-    
 }
 
 @media (min-width: 1px) and (max-width: 600px) {
@@ -267,13 +246,11 @@ h1 {
 }
     
 h1 {
-    
     font-size: 5em;
     transition: all 0.5s;
 }
 
     h4{
-    
     font-size: 1.75em;
             width: 80%;
     transition: all 0.5s;
@@ -288,12 +265,10 @@ h1 {
     a:link,
     a:visited {
             font-size: 1.5em;
-
     padding: 16px 30px 20px 30px;
         transition: all 0.5s;
     }
 }
-
 
 @media screen and (orientation:landscape) and (min-width: 1px) and (max-width: 1300px) {
 html, body, #lock {
