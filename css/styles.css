@@ -16,6 +16,12 @@
     }
 }
 
+html,
+body,
+#lock {
+    overflow: hidden;
+}
+
 body {
     background: linear-gradient(0deg, rgba(230, 230, 230, 0), rgba(230, 230, 230, 0)), url("/img/pixel-30.png") fixed;
     background-repeat: no-repeat;
@@ -202,6 +208,12 @@ h2 {
             opacity: 1;
             transform: translateX(-50%) translateY(0%);
         }
+    }
+
+    html,
+    body,
+    #lock {
+        overflow: visible;
     }
 
     #blue {
