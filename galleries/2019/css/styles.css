@@ -10,6 +10,11 @@
     }
 }
 
+html,
+body {
+    overflow: visible;
+}
+
 #blue {
     background-image: linear-gradient(90deg, black, #191919);
     top: 0%;
