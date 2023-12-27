@@ -57,7 +57,7 @@ h2 {
     transition: all 0.5s;
 }
 
-.gallery {
+.gallery, video {
     width: 70%;
 }
 
@@ -87,7 +87,7 @@ h2 {
         transition: all 0.5s;
     }
 
-    .gallery {
+    .gallery, video {
         width: 90%;
     }
 
