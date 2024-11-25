@@ -212,7 +212,7 @@ h2 {
     html,
     body,
     #lock {
-        overflow: visible!important;
+        overflow: visible;
     }
 
     #blue {
