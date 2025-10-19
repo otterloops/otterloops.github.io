@@ -170,10 +170,6 @@ h2 {
         transition: all 0.5s;
     }
 
-    #icon {
-        width: 50%;
-    }
-
     ul {
         margin-bottom: 30px;
         transition: all 0.5s;
