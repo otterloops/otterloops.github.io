@@ -105,7 +105,7 @@ a:hover {
 
 #icon {
     border-radius: 100%;
-    width: 80%;
+    width: 50%;
     transition: all 0.5s;
 }
 
@@ -114,7 +114,7 @@ h2 {
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
     color: white;
-    text-align: right;
+    text-align: center;
     transition: all 0.5s;
 }
 
@@ -171,7 +171,7 @@ h2 {
     }
 
     #icon {
-        width: 30%;
+        width: 50%;
     }
 
     ul {
@@ -190,7 +190,6 @@ h2 {
 
     h2 {
         font-size: 1.25em;
-        text-align: center;
         margin-bottom: 25px;
         transition: all 0.5s;
     }
